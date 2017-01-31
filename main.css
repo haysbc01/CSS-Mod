@@ -1,0 +1,68 @@
+/* ADD YOUR STYLES HERE */
+/* center multiple elements horizontally */
+
+.box {
+  vertical-align: top;
+  padding: 15px;
+  display: inline-block;
+}
+
+
+.lower-words {
+  vertical-align: top;
+  margin: 0 auto;
+  width: 200px;
+  padding: 20px;
+  
+}
+
+
+/* center vertically */
+.box2 {
+  padding: 100px 0;
+}
+
+.instruction-answer ul {
+  list-style: none;
+}
+
+.instruction-answer li {
+  display: inline;
+}
+
+/* Different size buttons */
+#big {
+  border-radius: 5px;
+  display: inline-block;
+  padding: 20px 40px;
+}
+
+.button {
+  background-color: #cc6699;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+#small {
+  border-radius: 5px;
+  display: inline-block;
+  padding: 3px 5px;
+}
+
+/* navigatioon */
+
+
+
+
+
+
+
+
+
+
+
