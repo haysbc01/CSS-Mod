@@ -1,34 +1,46 @@
 /* ADD YOUR STYLES HERE */
 /* center multiple elements horizontally */
 
+.box-container {
+  text-align:center;
+}
+
 .box {
   vertical-align: top;
   padding: 15px;
-  display: inline-block;
+  display: inline;
 }
 
 
 .lower-words {
-  vertical-align: top;
-  margin: 0 auto;
-  width: 200px;
-  padding: 20px;
+  list-style-type: none
+  
+  
   
 }
 
 
 /* center vertically */
+.vert-container {
+  height:400px;
+  width : 100%;
+  position : relative;
+}
+
 .box2 {
-  padding: 100px 0;
+  position : absolute;
+  top : 50%;  
+  
+  transform : translateY(-50%);
 }
 
 /* Horizontal List */
 
-ul.ulist{
+.ulist{
   list-style: none;
 }
 
-li.list {
+.list {
   display: inline;
 }
 
@@ -57,7 +69,7 @@ li.list {
 }
 
 /* navigation */
-ul.navbar {
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -67,12 +79,12 @@ ul.navbar {
   position: absolute;
 }
 
-li.nav-li {
+.nav-li {
   float: left;
   margin: 0 10px;
 }
 
-li.nav-li a {
+.nav-li a {
   display: block;
   color: white;
   text-align: center;
@@ -80,7 +92,7 @@ li.nav-li a {
   text-decoration: none;
 }
 
-li.nav-li a:hover {
+.nav-li a:hover {
   background-color: #f06;
 }
 
@@ -89,41 +101,46 @@ ol {
   list-style-type: none;
   margin:0;
   padding: 0;
+  text-decoration: none;
   
 }
 
 .pag-li {
   float: left;
   margin: 0 5px;
-  /* border-bottom: 2px solid #c69; */
+  
+  text-decoration: none;
+}
+
+.middle {
+  border-bottom: 2px solid #c69;
+  text-decoration: none;
 }
 
 span {
   color: #ccc;
-  text-decoration: underline;
-  border-bottom-color: #ccc;
+  text-decoration: none;
+  border-bottom: 2px solid #ccc;
 }
 
 .pag-li a {
   color: #c69;
-}
-
-.pag-li.prev-last {
   text-decoration: none;
 }
 
 /* Comment Stream */
 
-.comments {
-  vertical-align: text-top;
-  vertical-align: text-top;
-  top: 0px;
-  left: 200px;
+.square {
+  float: left;
+  display: inline-block;
 }
 
-.square {
-  position: absolute;
- 
+#sd {
+  margin: inherit;
+}
+
+.comments {
+  overflow: hidden;
 }
 
 /* tabs */
@@ -135,8 +152,7 @@ span {
 
 .tab-li {
   display: inline;
-  border:solid;
-  border-width: 1px;
+  border: 1px solid #ccccff;
   margin: 0 5px;
   padding: 5px;
   float: left;
@@ -144,8 +160,15 @@ span {
 }
 
 .border {
-  border: 1px solid;
+  border: 1px solid #ccccff;
   display: inline-block;
+  margin-top: -1px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#second {
+  border-bottom: 1px double #ccccff;
 }
 
 
